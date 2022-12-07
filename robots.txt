@@ -1,4 +1,4 @@
 User-agent: *
-Disallow:
+Disallow:/slile/
 
 sitemap: https://dzonas34.github.io/dzonas34/sitemap.xml
