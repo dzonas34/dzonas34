@@ -1,0 +1,132 @@
+body{
+    background-image: url(../Slike/jabuke.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box1{
+    height: 350px;
+    width: 900px;
+    background-color: seagreen;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px;
+    border: 2px solid black;
+    animation: animation 5s infinite;
+}
+
+.zlatni{
+    height: 80%;
+    width: 30%;
+    padding: 30px;
+}
+
+.box1 p{
+    float: right;
+    padding: 40px 350px 0px 0px;
+}
+
+.box2{
+    height: 350px;
+    width: 900px;
+    background-color: seagreen;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px;
+    border: 2px solid black;
+    float: right;
+    animation: animation 5s infinite;
+}
+
+.greni{
+    height: 80%;
+    width: 30%;
+    padding: 30px;
+    float: left;
+}
+
+.box2 p{
+    float: right;
+    padding: 40px 350px 0px 0px;
+}
+
+.box3{
+    height: 350px;
+    width: 900px;
+    background-color: seagreen;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px;
+    border: 2px solid black;
+    float: left;
+    animation: animation 5s infinite;
+}
+
+.gala{
+    height: 80%;
+    width: 30%;
+    padding: 30px;
+}
+
+.box3 p{
+    float: right;
+    padding: 40px 350px 0px 0px;
+}
+
+.box4{
+    height: 350px;
+    width: 900px;
+    background-color: seagreen;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px;
+    border: 2px solid black;
+    float: right;
+    animation: animation 5s infinite;
+}
+
+.fuji{
+    height: 80%;
+    width: 30%;
+    padding: 30px;
+}
+
+.box4 p{
+    float: right;
+    padding: 40px 350px 0px 0px;
+}
+
+.futer{
+    width: 100%;
+    height: 150px;
+    background-color:goldenrod;
+    margin-top: 90%;
+}
+
+.sadrzajfutera{
+    border: 2px solid black;
+    height: 80%;
+    width: 30%;
+    float: left;
+    margin: 10px 50px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.sadrzajfutera2{
+    border: 2px solid black;
+    height: 80%;
+    width: 30%;
+    float: right;
+    margin: 10px 50px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+@keyframes animation {
+    0%{background-color: seagreen;}
+    25%{background-color: mediumseagreen;}
+    50%{background-color: lightseagreen;}
+    75%{background-color: limegreen;}
+    100%{background-color: lime;}
+}

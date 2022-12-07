@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.menu{
+    background-color:goldenrod;
+    text-align: center;
+    overflow: hidden;
+}
+
+.menu a{
+    float: left;
+    display: inline;
+    color: wheat;
+    text-decoration: none;
+    padding: 15px 40px;
+    font-weight: bold;
+    margin: 3px;
+}
+
+.menu h3{
+    float: right;
+    padding: 0px 100px;
+    letter-spacing: 4px;
+    margin-top: 15px;
+}
+
+.menu a:hover{
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+}
+
+@media screen and (max-width:950px) {
+    .menu h3{
+        display: none;
+    }
+    
+    .menu a{
+        width: 100%;
+    }
+
+
+}
