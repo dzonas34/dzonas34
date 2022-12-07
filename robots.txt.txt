@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-sitemap: https://dzonas34.github.io/dzonas34/sitemap.xml
